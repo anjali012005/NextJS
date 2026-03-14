@@ -57,3 +57,17 @@ body {
 .animate-fade {
   animation: fade 2s ease-in-out;
 }
+
+@keyframes zoom {
+  0% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(1.15);
+  }
+}
+
+.animate-zoom {
+  animation: zoom 20s ease-in-out infinite alternate;
+}
