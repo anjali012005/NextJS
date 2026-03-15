@@ -20,8 +20,6 @@ export default function UserHome() {
   return (
     <main className="relative h-screen w-screen overflow-hidden flex items-center justify-center">
 
-        <Navbar />
-
       {/* Background Image */}
       <img
         src="/us/sec.jpg"
