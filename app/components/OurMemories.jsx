@@ -12,9 +12,9 @@ export default function OurMemories() {
     },
     {
       title: "Our First Trip",
-      date: "Aug 2023",
+      date: "Aug 2024",
       slug: "first-trip",
-      img: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e",
+      img: "/us/first-trip/h1.png",
     },
     {
       title: "Late Night Talks",
