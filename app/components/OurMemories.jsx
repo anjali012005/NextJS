@@ -8,7 +8,7 @@ export default function OurMemories() {
       title: "The First Meeting",
       date: "Jan 2023",
       slug: "first-meeting",
-      img: "https://images.unsplash.com/photo-1517841905240-472988babdf9",
+      img: "/us/first-meeting/12.jpg",
     },
     {
       title: "Our First Trip",
@@ -20,6 +20,12 @@ export default function OurMemories() {
       title: "Late Night Talks",
       date: "Dec 2023",
       slug: "late-night-talks",
+      img: "https://images.unsplash.com/photo-1529333166437-7750a6dd5a70",
+    },
+    {
+      title: "Long Distance Again",
+      date: "Dec 2023",
+      slug: "long-distance-again",
       img: "https://images.unsplash.com/photo-1529333166437-7750a6dd5a70",
     },
   ];
