@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import Loader from "../components/Loader";
 import Navbar from "../components/Navbar";
+import StoryIntro from "@/components/StoryIntro";
 
 export default function UserHome() {
   const [loading, setLoading] = useState(false);
@@ -18,6 +19,7 @@ export default function UserHome() {
   if (loading) return <Loader />;
 
   return (
+  <>
     <main className="relative h-screen w-screen overflow-hidden flex items-center justify-center">
 
       {/* Background Image */}
@@ -36,5 +38,7 @@ export default function UserHome() {
       </h1>
 
     </main>
+    <StoryIntro />
+  </>
   );
 }
