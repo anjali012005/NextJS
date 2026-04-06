@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import Loader from "../components/Loader";
 import Navbar from "../components/Navbar";
 import StoryIntro from "@/components/StoryIntro";
+import PhotoStrip from "@/components/PhotoStrip";
 
 export default function UserHome() {
   const [loading, setLoading] = useState(false);
@@ -39,6 +40,7 @@ export default function UserHome() {
 
     </main>
     <StoryIntro />
+    <PhotoStrip/>
   </>
   );
 }
